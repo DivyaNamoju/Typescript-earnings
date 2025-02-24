@@ -16,7 +16,7 @@ for(const f in fruits)
 {
     console.log(fruits[f]);
 }
-for(const f in fruits)
+for(const f of fruits)
 {
-    console.log(fruits[f]);
+    console.log(f);
 }
